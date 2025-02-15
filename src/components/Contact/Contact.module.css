@@ -1,28 +1,34 @@
 .contactCard {
   display: flex;
-
-  /* justify-content: space-between;
-  align-items: column; */
+  justify-content: space-between;
+  align-items: center;
   border: 2px solid black;
   border-radius: 8px;
-  padding: 10px;
+  padding: 15px;
   margin-bottom: 10px;
+  max-width: 400px;
 }
+
 .contactInfo {
-  text-align: left;
-  margin: 0;
   display: flex;
   flex-direction: column;
+  gap: 5px;
 }
-/* p {
-} */
+
+.contactInfo p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+}
 .deleteBtn {
-  background-color: lightgray;
-  border: 1px solid gray;
-  padding: 0;
+  background-color: rgb(211, 211, 211);
+  border: 1px solid black;
+  padding: 5px 10px;
   border-radius: 5px;
   cursor: pointer;
 }
+
 .deleteBtn:hover {
   background-color: gray;
 }
